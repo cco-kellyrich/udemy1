@@ -4,11 +4,12 @@ import (
 	"fmt"
 )
 
+// p stands for paid a day, t stands for taxes
 const p float64 = 500
 const t float64 = .78
 
 //const d = 10
-
+// d is amount of days worked
 func p1(d float64) {
 	//var p float64 = 500
 	//var t float64 = .78
